@@ -1,6 +1,4 @@
-type CustomRecord<K extends string | number | symbol, T> = {
-  [P in K]: T;
-};
+// your code here
 
 type Foo = "foo" | "bar" | "baz";
 
